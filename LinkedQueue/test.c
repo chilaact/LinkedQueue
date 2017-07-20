@@ -55,5 +55,5 @@ int main()
 		printf("Dequeue : %s\n", *(char **)dedata);
 		printf("Length : %d\n", strQueue->length);
 	}
-	strQueue->DeleteQueue(strQueue);
+	strQueue->DeleteQueue(strQueue); 
 }
